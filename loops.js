@@ -1,4 +1,0 @@
-// the initial changes for work with JS
-// author Ana
-
-let dataTest = 'value'
