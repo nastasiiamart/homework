@@ -1,0 +1,25 @@
+let i = 0;
+while (i < 3) {
+    console.log('number ${i}!');
+    i++;
+}
+
+let NotDivide;
+for (let i = 0; i <= 10; i++) {
+    if (i % 2 == 0) continue
+    NotDivide = i;
+    console.log(NotDivide)
+}
+
+for (let i = 0; i <= 10; i++) {
+    if (i == 5) continue
+    console.log(i)
+}
+
+let num = 10
+if (num < 10) {
+    console.log('Hello')
+}
+else {
+    console.log('Bye')
+}
