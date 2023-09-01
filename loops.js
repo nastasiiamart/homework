@@ -23,3 +23,7 @@ else if (num215 >=200) {
 else {
     console.log('code goes to the else')
 }
+
+            (num215 >= 200) ? console.log('ternary true') : 
+            (num215 >= 250) ? console.log('ternary false') :
+            console.log('ternary false')
