@@ -28,7 +28,7 @@
 //             (num215 >= 250) ? console.log('ternary false') :
 //             console.log('ternary false')
 
-let num = 10;
+// let num = 10;
 // while (num <= 7) {
 //     console.log(num)
 //     num++;
@@ -39,7 +39,7 @@ let num = 10;
 //     num++
 // } while (num <= 10)
 
-let sumOfLoop = 0;
+// let sumOfLoop = 0;
 // for (let i = 0; i <= num; i+=2) {
 //     console.log(i)
 //     if (i == 6) break;
@@ -57,18 +57,50 @@ let sumOfLoop = 0;
 // for in // objects
 // for of // arrays
 
-const obj1 = {prop1:1, prop2:2, prop3:'value3'}
-for (let prop in obj1) {
-    console.log(prop)
-    console.log(`${obj1[prop]}`)
-    if(`${obj1[prop]}`== 'New') {
-        console.log
-    }
+// const obj1 = {prop1:1, prop2:2, prop3:'value3'}
+// for (let prop in obj1) {
+//     console.log(prop)
+//     console.log(`${obj1[prop]}`)
+//     if(`${obj1[prop]}`== 'New') {
+//         console.log
+//     }
+// }
+
+// const arr1 = ['valar1', 'valarr2', 'valarr3']
+
+// for ( let valOfArr of arr1 ) {
+//     valOfArr += 1
+//     console.log(valOfArr)
+// }
+
+// for (let i = 0; i < 3; i++) {
+//     console.log( 'number ${i}!' )
+// }
+
+
+let i = 0;
+while (i < 3) {
+    console.log('number ${i}!');
+    i++;
 }
 
-const arr1 = ['valar1', 'valarr2', 'valarr3']
-
-for ( let valOfArr of arr1 ) {
-    valOfArr += 1
-    console.log(valOfArr)
+let NotDivide;
+for (let i = 0; i <= 10; i++) {
+    if (i % 2 == 0) continue
+    NotDivide = i;
+    console.log(NotDivide)
 }
+
+for (let i = 0; i <= 10; i++) {
+    if (i == 5) continue
+    console.log(i)
+}
+
+let num = 10
+if (num < 10) {
+    console.log('Hello')
+}
+else {
+    console.log('Bye')
+}
+
