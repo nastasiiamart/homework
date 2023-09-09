@@ -1,0 +1,17 @@
+let array = ['qwe', 123, 'rty', 456, 'uio', 789, 'asd', 987, 'fgh', 654]
+array[500] = 'New'
+
+let stringElementsOnly = []; 
+let numberElementsOnly = [];
+
+for (let i = 0; i < array.length; i++) {
+    if (typeof array[i] === 'string') {
+        stringElementsOnly.push(array[i])
+    }
+
+    if (typeof array[i] === 'number') {
+        numberElementsOnly.push(array[i])
+    }
+}
+console.log(stringElementsOnly)
+console.log(numberElementsOnly)
