@@ -18,14 +18,14 @@ const testDataEnv1 = {
 let urlForTest = testDataEnv1.server.showFullAddress()
 console.log(urlForTest)
 console.log(testDataEnv1.server.protocol)
-
+`
 // function addPropColor() {
 //     this.color = 'red'
 // }
 
 // objMy.addPropColor = addPropColor
 // objMy.addPropColor()
-// console.log(Object.values(objMy))
+// console.log(Object.values(objMy))`
 
 // function getAllProp() {
 //     return this.age;
