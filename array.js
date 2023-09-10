@@ -2,18 +2,18 @@
 
 let arr1 = ['kili', 'ooo', 'p0dp', 938, 2222, true, function() {console.log('Hi from array')}]
 
-// let value = arr1[3]
-// console.log(value)
+let value = arr1[3]
+console.log(value)
 
 arr1[3] = 'New'
-// console.log(arr1[3])
-// console.log(arr1)
+console.log(arr1[3])
+console.log(arr1)
 
-// arr1[6]()
+arr1[6]()
 
-// let lArr1 = arr1.length
-// console.log(lArr1)
-// console.log(arr1.at(-3))
+let lArr1 = arr1.length
+console.log(lArr1)
+console.log(arr1.at(-3))
 
 
 async function getOnlyStringFromArr(baseArr) {
@@ -37,3 +37,19 @@ for (let y = 0; y < result.length; y++) {
 console.log(resultWithUpperC)
 }
 getOnlyStringFromArr(arr1)
+
+
+let mArr22 = [
+    [1, 3, 'Shrek'],
+    [4, 10],
+    [40, 50]
+];
+// let nameShrek = mArr22[0][2]
+// console.log(nameShrek)
+
+for (let i = 0; i < mArr22.length; i++) {
+    let smalArr = mArr22[i];
+    for (let y = 0; y < smalArr.length; y++) {
+        console.log('Elements [' + i + '][' + y +'] = ' +smalArr)
+    }
+}
