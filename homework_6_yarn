@@ -1,0 +1,17 @@
+import fs from 'fs';
+import fetch from "node-fetch";
+
+const apiUrl = 'https://reqres.in/api/users?page=1&per_page=5';
+
+async function fetchData() {
+
+    const response = await fetch(apiUrl);
+
+    const data = await response.json();
+
+    fs.writeFileSync('response.json', JSON.stringify(data, null, 2), 'utf-8');
+
+    console.log('Data saved to response.json');
+}
+
+fetchData();
